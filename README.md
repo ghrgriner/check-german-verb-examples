@@ -89,7 +89,8 @@ are in a file whose structure is like that of the `wikwork` Python package v1.0.
 (written by the same author of this repository). However, if users extract the
 data and format it appropriately some other way, the `wikwork`
 package is not needed. We did provide an example download program that uses
-`wikwork` for interested users.
+`wikwork` for interested users. We also provide an example program where
+a Wiktionary monthly dump file is parsed.
 
 See `wikwork` package documentation for its dependencies.
 
