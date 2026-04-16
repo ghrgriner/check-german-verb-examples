@@ -87,7 +87,7 @@ The package uses numpy and pandas.
 The package assumes the input example data and starting candidate strings
 are in a file whose structure is like that of the `wikwork` Python package v1.0.0
 (written by the same author of this repository). However, if users extract the
-data and get it into the appropriate format some other way, the `wikwork`
+data and format it appropriately some other way, the `wikwork`
 package is not needed. We did provide an example download program that uses
 `wikwork` for interested users.
 
@@ -95,7 +95,7 @@ See `wikwork` package documentation for its dependencies.
 
 # Program-Generated Warning Messages
 
-The example programs provided are a bit noisy. Running them on all verbs will
+The `check_verb_ex_fmts.py` example program is a bit noisy. Running the on all verbs will
 generate two or three pages of warnings. These warnings are of four types:
 
 - The example text contains three single quotes.
@@ -108,6 +108,6 @@ generate two or three pages of warnings. These warnings are of four types:
   cases, the third person plural is not created.
 
 The warning system is also a bit crude (i.e. simply `print` statements).
-Users are encouraged to comment these out if they become annoyed or convert
-to the `logging` package.
+Users are encouraged to comment these out if they become annoyed and/or convert
+to the `logging` package to more easily manage the output.
 
