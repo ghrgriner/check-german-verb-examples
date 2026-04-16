@@ -72,7 +72,7 @@ def untr_make_eligible_flag(df):
 def untr_make_manrev(df):
     return df[ (df.needs_review) & (df.sep_verb_YN == 'N')
                  & (df.verb_template_parsed == 'True')
-                 & (df.entry_line.str.contains('|Verb|'))]
+                 & (df.entry_line.str.contains(r'\|Verb\|'))]
 
 UNTR_ALL_USER_OUTPUT_FILE = f'{OUTDIR}/untrennbar_examples.txt'
 UNTR_MANREV_USER_OUTPUT_FILE = f'{OUTDIR}/load_flashcard_user_un.txt'
