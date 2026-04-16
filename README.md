@@ -95,8 +95,8 @@ See `wikwork` package documentation for its dependencies.
 
 # Program-Generated Warning Messages
 
-The `check_verb_ex_fmts.py` example program is a bit noisy. Running the on all verbs will
-generate two or three pages of warnings. These warnings are of four types:
+The `check_verb_ex_fmts.py` example program is a bit noisy. Running the program on
+all verbs will generate two or three pages of warnings. These warnings are of four types:
 
 - The example text contains three single quotes.
 - The example text contains an 'unclosed' pair of single quotes.
